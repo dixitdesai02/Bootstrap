@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#about ul {
+    list-style: url("images/ticks (1).png");
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+#about button:hover {
+    color: #fff;
+}
+
+footer i {
+    font-size: 2rem;
+}

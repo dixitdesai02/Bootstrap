@@ -15,3 +15,31 @@ body {
 footer i {
     font-size: 2rem;
 }
+
+.hero-img {
+    animation: animate 1.25s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+    animation-timing-function: linear;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(0.4rem);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(-0.4rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

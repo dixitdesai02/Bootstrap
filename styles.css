@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    position: relative;
 }
 
 #about ul {
@@ -66,6 +65,10 @@ footer li:hover {
 
 footer li:hover h5 {
     text-decoration: none;
+}
+
+body a {
+    right: 5rem !important;
 }
 
 .newsletter {

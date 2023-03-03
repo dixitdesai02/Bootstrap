@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 #about ul {
@@ -41,5 +42,45 @@ footer i {
 
     100% {
         transform: translateY(0);
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social-icons li{
+    transition: transform 200ms ease-in-out;
+}
+
+.social-icons li:hover {
+    color: #0dcaf0;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer li:hover h5 {
+    text-decoration: none;
+}
+
+.newsletter {
+    z-index: 1;
+    bottom: -5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .newsletter {
+        bottom: -7rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .newsletter {
+        bottom: -9.5rem;
     }
 }
